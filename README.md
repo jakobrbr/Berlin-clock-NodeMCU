@@ -6,7 +6,7 @@ You can read about much more about the original clock and how to tell the time o
 
 This DIY version of the Berlin clock definitely needs some improvements, since it was my first real Arduino project and my first time designing a 3d-print model. 
 
-**Picture of the finished product:** See images in *Pictures* folder
+**Picture of the finished product:** [Front](images/Front.png) and [back](Back.png)
 - As you can see, the three red 3mm LEDs I used for row 3 were too bright compared to the yellow ones. These LEDs were super bright LEDs, and I only used them because I didn't have anything else. Normal clear 3mm LEDs would have been enough (5mm for row 1,2 and 4). 
 
 ## How it works:
