@@ -9,7 +9,7 @@ This was my first real Arduino project and my first time designing a 3d-print mo
 ## How it works:
 The clock uses the WiFi capabilities of the NodeMCU to always have the correct time without the need of a clock module. 
 When powered on, the NodeMCU will connect to the internet with the network credentials you entered in the arduino code. Then the NodeMCU requests and recieves the current time from an NTP server and displays it using the 24 LEDs. The code used to get time from an NTP server comes from [randomnerdtutorials.com](https://randomnerdtutorials.com/esp8266-nodemcu-date-time-ntp-client-server-arduino/). The LEDs are divided into two LED matrices that are controlled by two 74HC595 shift registers. This reduces the amount of NodeMCU pins in use greatly, however one could easily manage to use even less. 
-The NodeMCU is powered with a micro USB cable.
+The NodeMCU is powered via a micro USB cable.
 
 ### LED matrices
 In order to limit the amount of I/O pins in use, two 74HC595 shift registers are used to control two LED matrices.
