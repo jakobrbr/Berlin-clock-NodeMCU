@@ -20,7 +20,7 @@ The top seconds indicator LED uses D4 on the NodeMCU. (...)
 
 ## Schematics
 (...)
-The code I used to multiplex LED with a 74HC595 comes from [this instructables by Amanda Ghassaei](https://www.instructables.com/id/Multiplexing-with-Arduino-and-the-74HC595/).
+The code I used to multiplex LEDs with a 74HC595 comes from [this instructables by Amanda Ghassaei](https://www.instructables.com/id/Multiplexing-with-Arduino-and-the-74HC595/).
 
 ## 3D printed case
 (...)
