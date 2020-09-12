@@ -24,3 +24,4 @@ The code I used to multiplex LED with a 74HC595 comes from [Amanda Ghassaei on i
 
 ## 3D printed case
 (...)
+I used tinkercad.com to create all 3d print files.
