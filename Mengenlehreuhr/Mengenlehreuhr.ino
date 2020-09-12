@@ -3,6 +3,9 @@
  * ESP8266 NodeMCU & 74HC595
  * by Jakob Rud Bernhardt
  * July 2020
+ * https://github.com/jakobrbr/Berlin-clock-NodeMCU
+ * https://RandomNerdTutorials.com/esp8266-nodemcu-date-time-ntp-client-server-arduino/
+ * https://www.instructables.com/id/Multiplexing-with-Arduino-and-the-74HC595/
  */
 #include <ESP8266WiFi.h>
 #include <NTPClient.h>
