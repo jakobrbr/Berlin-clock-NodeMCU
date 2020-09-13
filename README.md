@@ -14,6 +14,8 @@ The clock uses the WiFi capabilities of the NodeMCU to always have the correct t
 When powered on, the NodeMCU connects to the internet with the network credentials you entered in the arduino code. Then the NodeMCU requests and recieves the current time from an NTP server and displays it using the 24 LEDs. The code used to get time from an NTP server comes from [randomnerdtutorials.com](https://randomnerdtutorials.com/esp8266-nodemcu-date-time-ntp-client-server-arduino/). The LEDs are divided into two LED matrices that are controlled by two 74HC595 shift registers. This reduces the number of NodeMCU pins in use greatly, however one could easily manage to use even less. 
 The NodeMCU is powered via a micro USB cable.
 
+[**Arduino code**](Mengenlehreuhr/Mengenlehreuhr.ino)
+
 ### LED matrices
 In order to limit the amount of I/O pins in use, two 74HC595 shift registers are used to control two LED matrices.
 The first marix (matrix1) is a 4x4 matrix containing row 1, 2 and 4 of the clock (counting from the top - see [image](https://commons.wikimedia.org/wiki/File:Berlin-Uhr-1650-1705.gif#/media/File:Berlin-Uhr-1650-1705.gif)). Note that only 3 rows of matrix1 are in use. Matrix1 row 4 represents LED row 4 on the clock; this means that matrix1 row 3 is "empty". The second matrix (matrix2) is a 4x4 matrix containing all elleven elements of LED row 3. See my diagrams in [**Schematic.pdf**](Schematic.pdf).
