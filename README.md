@@ -4,7 +4,10 @@ IoT Mengenlehreuhr aka Berlin clock made using ESP8266 NodeMCU and two 74HC595 s
 The clock is based on a real clock that was installed in Berlin in 1975. My goal was to replicate the original design as best as I could, in a small "desktop form factor". 
 You can read much more about the original clock and how to tell the time on [Wikipedia](https://en.wikipedia.org/wiki/Mengenlehreuhr).
 ```
-*The clock is read from the top row to the bottom. The top row of four red fields denote five full hours each, alongside the second row, also of four red fields, which denote one full hour each, displaying the hour value in 24-hour format. The third row consists of eleven yellow-and-red fields, which denote five full minutes each (the red ones also denoting 15, 30 and 45 minutes past), and the bottom row has another four yellow fields, which mark one full minute each. The round yellow light on top blinks to denote odd- (when lit) or even-numbered (when unlit) seconds.* -[Wikipedia](https://en.wikipedia.org/wiki/Mengenlehreuhr)
+*The clock is read from the top row to the bottom. 
+The top row of four red fields denote five full hours each, alongside the second row, also of four red fields, which denote one full hour each, displaying the hour value in 24-hour format. 
+The third row consists of eleven yellow-and-red fields, which denote five full minutes each (the red ones also denoting 15, 30 and 45 minutes past), and the bottom row has another four yellow fields, which mark one full minute each. 
+The round yellow light on top blinks to denote odd- (when lit) or even-numbered (when unlit) seconds.* -[Wikipedia](https://en.wikipedia.org/wiki/Mengenlehreuhr)
 ```
 This DIY version of the Berlin clock is far from perfect, since it was my first real Arduino project and my first time designing a 3d-print model. 
 
