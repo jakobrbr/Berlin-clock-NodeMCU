@@ -69,7 +69,7 @@ void secLED(int currentSecond) {
   // top blinking LED, on/off for one second at a time
   int odd = currentSecond%2;
   if(odd){
-    digitalWrite(secPin,HIGH); // active low, if the current seconds value is odd the LED is off
+    digitalWrite(secPin,HIGH);
   } else if(!odd) {
     digitalWrite(secPin,LOW);
   }
