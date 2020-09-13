@@ -11,7 +11,7 @@ This DIY version of the Berlin clock is far from perfect, since it was my first 
 
 ## How it works:
 The clock uses the WiFi capabilities of the NodeMCU to always have the correct time without the need of a clock module. 
-When powered on, the NodeMCU will connect to the internet with the network credentials you entered in the arduino code. Then the NodeMCU requests and recieves the current time from an NTP server and displays it using the 24 LEDs. The code used to get time from an NTP server comes from [randomnerdtutorials.com](https://randomnerdtutorials.com/esp8266-nodemcu-date-time-ntp-client-server-arduino/). The LEDs are divided into two LED matrices that are controlled by two 74HC595 shift registers. This reduces the number of NodeMCU pins in use greatly, however one could easily manage to use even less. 
+When powered on, the NodeMCU connects to the internet with the network credentials you entered in the arduino code. Then the NodeMCU requests and recieves the current time from an NTP server and displays it using the 24 LEDs. The code used to get time from an NTP server comes from [randomnerdtutorials.com](https://randomnerdtutorials.com/esp8266-nodemcu-date-time-ntp-client-server-arduino/). The LEDs are divided into two LED matrices that are controlled by two 74HC595 shift registers. This reduces the number of NodeMCU pins in use greatly, however one could easily manage to use even less. 
 The NodeMCU is powered via a micro USB cable.
 
 ### LED matrices
