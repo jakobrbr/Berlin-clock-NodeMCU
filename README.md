@@ -1,5 +1,5 @@
 # Berlin-clock-NodeMCU
-WiFi enabled Mengenlehreuhr aka Berlin clock made using ESP8266 NodeMCU and two 74HC595 shift registers.
+IoT Mengenlehreuhr aka Berlin clock made using ESP8266 NodeMCU and two 74HC595 shift registers.
 
 The clock is based on a real clock in Berlin from 1975. My goal was to replicate the original design as best as I could, in a small "desktop form factor". 
 You can read much more about the original clock and how to tell the time on [Wikipedia](https://en.wikipedia.org/wiki/Mengenlehreuhr).
