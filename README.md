@@ -22,7 +22,7 @@ The code used to multiplex LEDs with a 74HC595 comes from [this instructables by
 
 ## Schematics
 All pin connections and schematics diagrams of the LED matrices can be found in [**Schematic.pdf**](Schematic.pdf).
-The seconds indicator LED uses D4 and GND on the NodeMCU. I used 5mm LEDs for row 1, 2 and 3 and 3mm LEDs for row 4. I wouldn't use diffused LEDs, since they are too dim to shine through the front panels. 
+The seconds indicator LED uses D4 and GND on the NodeMCU. I used 5mm LEDs for row 1, 2 and 3 and 3mm LEDs for row 4. I wouldn't use diffused LEDs, since they are too dim to shine through the front panels. (But if you don't plan on using the panels, diffused LEDs are perfect)
 
 ## 3D printed case
 I used tinkercad.com to create all 3d models. Everything was printed in white PLA, which ensured that the front panels were translucent enough for the LEDs to shine through.
