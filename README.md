@@ -4,7 +4,7 @@ WiFi enabled Mengenlehreuhr aka Berlin clock made using ESP8266 NodeMCU and two 
 The clock is based on a real clock in Berlin from 1975. My goal was to replicate the original design as best as I could, in a small "desktop form factor". 
 You can read about much more about the original clock and how to tell the time on [Wikipedia](https://en.wikipedia.org/wiki/Mengenlehreuhr).
 
-This DIY version of the Berlin clock definitely needs some improvements, since it was my first real Arduino project and my first time designing a 3d-print model. 
+This DIY version of the Berlin clock could probably use some improvements, since it was my first real Arduino project and my first time designing a 3d-print model. 
 
 **Picture of the finished product:** [Front](Images/Front.jpg) and [back](Images/Back.jpg)
 - As you can see, the three red 3mm LEDs I used for row 3 were too bright compared to the yellow ones. These LEDs were super bright LEDs, and I only used them because I didn't have anything else. Normal clear 3mm LEDs would have been enough (5mm for row 1,2 and 4). 
