@@ -16,7 +16,7 @@ The NodeMCU is powered via a micro USB cable.
 
 ### LED matrices
 In order to limit the amount of I/O pins in use, two 74HC595 shift registers are used to control two LED matrices.
-The first marix (matrix1) is a 4x4 matrix containing row 1, 2 and 4 of the clock (counting from the top - see [image](https://commons.wikimedia.org/wiki/File:Berlin-Uhr-1650-1705.gif#/media/File:Berlin-Uhr-1650-1705.gif)). Note that only 3 rows of matrix1 are in use. Matrix1 row 4 represents LED row 4 on the clock; this means that matrix1 row 3 is "empty". The second matrix (matrix2) is a 4x4 matrix containing all elleven elements of LED row 3. See my diagrams in **Schematic.pdf**.
+The first marix (matrix1) is a 4x4 matrix containing row 1, 2 and 4 of the clock (counting from the top - see [image](https://commons.wikimedia.org/wiki/File:Berlin-Uhr-1650-1705.gif#/media/File:Berlin-Uhr-1650-1705.gif)). Note that only 3 rows of matrix1 are in use. Matrix1 row 4 represents LED row 4 on the clock; this means that matrix1 row 3 is "empty". The second matrix (matrix2) is a 4x4 matrix containing all elleven elements of LED row 3. See my diagrams in [**Schematic.pdf**](Schematic.pdf).
 
 The code used to multiplex LEDs with a 74HC595 comes from [this instructables by Amanda Ghassaei](https://www.instructables.com/id/Multiplexing-with-Arduino-and-the-74HC595/).
 
