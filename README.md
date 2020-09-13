@@ -21,7 +21,7 @@ The first marix (matrix1) is a 4x4 matrix containing row 1, 2 and 4 of the clock
 The code used to multiplex LEDs with a 74HC595 comes from [this instructables by Amanda Ghassaei](https://www.instructables.com/id/Multiplexing-with-Arduino-and-the-74HC595/).
 
 ## Schematics
-All pin connections and schematics diagrams of the LED matrices can be found in **Schematic.pdf**.
+All pin connections and schematics diagrams of the LED matrices can be found in [**Schematic.pdf**](Schematic.pdf).
 The seconds indicator LED uses D4 and GND on the NodeMCU. I used 5mm LEDs for row 1, 2 and 3 and 3mm LEDs for row 4. I wouldn't use diffused LEDs, since they are too dim to shine through the front panels. 
 
 ## 3D printed case
