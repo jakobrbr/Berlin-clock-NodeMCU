@@ -7,7 +7,7 @@ You can read much more about the original clock and how to tell the time on [Wik
 This DIY version of the Berlin clock is far from perfect, since it was my first real Arduino project and my first time designing a 3d-print model. 
 
 **Picture of the finished product:** [Front](Images/Front.jpg) and [back](Images/Back.jpg)
-- As you can see, the three red 3mm LEDs I used for row 3 were too bright compared to the yellow ones. These LEDs were super bright LEDs, and I only used them because I didn't have anything else. Normal clear 3mm LEDs would have been enough (5mm for row 1,2 and 4). 
+- As you can see, the three red 3mm LEDs I used for row 3 were too bright compared to the yellow ones. These LEDs were super bright LEDs, and I only used them because I didn't have anything else available. Normal clear 3mm LEDs would have been enough (5mm for row 1,2 and 4). 
 
 ## How it works:
 The clock uses the WiFi capabilities of the NodeMCU to always have the correct time without the need of a clock module. 
