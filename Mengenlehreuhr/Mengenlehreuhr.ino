@@ -248,13 +248,12 @@ void loop() {
     byte dataToSend1 = (1 << (i+4)) | (15 & ~ledData1[i]); // for LED matrix containing row 1, 2 and 4
     byte dataToSend2 = (1 << (i+4)) | (15 & ~ledData2[i]); // for LED matrix containing row 3
       
-    // set latch pin low so the LEDs don't change while sending in bits
+    // set latch pins low so the LEDs don't change while sending in bits
     digitalWrite(latchPin1, LOW);
     digitalWrite(latchPin2, LOW);
     
     // shift out the bits of dataToSend to the 74HC595
-    // shift out(dataPin, clockPin, LSBFIRST, dataToSend);
-    // the code below is the equivalent of the two lines above
+    // shift out(dataPin, clockPin, LSBFIRST, dataToSend)
     for (j=0;j<8;j++){
       // row 1, 2 and 4
       digitalWrite(clockPin1,LOW);
@@ -265,7 +264,7 @@ void loop() {
       digitalWrite(dataPin2,((dataToSend2>>j)&1));
       digitalWrite(clockPin2,HIGH);
     }
-    //set latch pin high- this sends data to outputs so the LEDs will light up
+    //set latch pins high- this sends data to outputs so the LEDs will light up
     digitalWrite(latchPin1, HIGH);
     digitalWrite(latchPin2, HIGH);   
   }
